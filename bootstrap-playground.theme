@@ -5,3 +5,6 @@
  *
  * Place your custom PHP code in this file.
  */
+function bootstrap_playground_preprocess_page_title(&$variables) {
+  $variables['title'] = t('TEST');
+}
